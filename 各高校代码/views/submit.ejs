@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>页面</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+</head>
+
+
+<form action="http://127.0.0.1:1113/submit" method="GET">
+    <h3 style="text-align:center" id="test">
+    <div class="content">
+        <div class="item">
+            学生姓名: <input type="text" name="name">
+        </div>
+        <br>
+        <div class="item">
+            学生身份证号: <input type="text" name="nric">
+        </div>
+        <br>
+        <div class="item">
+            学生专业: <input type="text" name="course">
+        </div>
+        <br>
+        <div class="item">
+            学生号: <input type="text" name="studentId">
+        </div>
+        <br>
+        <div class="item">
+            学生成绩: <input type="text" name="transcript">
+        </div>
+        <br>
+        <input type="submit" value="提交">
+    </div>
+
+    <div class="content" style="color: rgb(7, 148, 42);">   <h4 class="login-title">
+            <% if (msg.code!='000' ){ %>
+                <span>
+                    <%= msg.txt %>
+                </span>
+                <% } %>
+
+
+
+        </h4>
+    </div>
+
+    </body>
+
+</html>
