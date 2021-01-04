@@ -6,10 +6,10 @@
         "recipient": {
             "name": "bxy",
             "nric": "1234",
-            "course": "java",
+            "course": "go",
             "studentId": "0002",
             "transcript": "80"
         }
     },
-    "signature": "0xf4b8938fdad383d2c9edfc1d0953399aefa5a6576fc6681ec5b26dd0eeb41e9d7f2a563ca7fb77b3c3ba944b95a496699c2ada4c488dc1b075851dbdb77098261b"
+    "signature": "0xf4b8938fdad383d2c9edfc5a6576fc6681ec5b26dd0eeb41e9d7f2a563ca7fb77b3c3ba944b95a496699c2ada4c488dc1b075851dbdb77098261b"
 }

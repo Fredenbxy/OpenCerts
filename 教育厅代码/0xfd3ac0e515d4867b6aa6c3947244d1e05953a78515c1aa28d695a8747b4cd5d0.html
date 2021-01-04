@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="web3.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+
+<img id="girlImg" src="./signature/cert_bxy.json" alt="">
+<button class="downloadBtn" type="button" onclick="downloadImg()">下载文件</button>
+</body>
+<script>
+    function downloadImg() {
+        var img = document.getElementById('girlImg'); // 获取要下载的图片
+        var url = img.src;                            // 获取图片地址
+        var a = document.createElement('a');          // 创建一个a节点插入的document
+        var event = new MouseEvent('click')           // 模拟鼠标click点击事件
+        a.download = 'cert_bxy'                  // 设置a节点的download属性值
+        a.href = url;                                 // 将图片的src赋值给a节点的href
+        a.dispatchEvent(event)                        // 触发鼠标点击事件
+    }
+</script>
+
+</html>
