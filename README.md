@@ -48,9 +48,9 @@
 
 ## · 各高校学生信息上链系统
 
-<img src="https://i.loli.net/2021/01/05/bJ2SIzEil8svY7B.png" alt="image-20210105104821167" style="zoom:150%;" />
 
 
+![image-20210105105039151](https://i.loli.net/2021/01/05/bJ2SIzEil8svY7B.png)
 
 ![image-20210105104356035](https://i.loli.net/2021/01/05/jEYrhL4KGfdpXAw.png)
 
